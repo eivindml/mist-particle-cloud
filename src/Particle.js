@@ -45,8 +45,8 @@ class Particle {
       this.h = 0;
     }
     this.p5.strokeWeight(1);
-    console.log(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y)
-    // this.p5.line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);
+    // console.log(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y)
+    this.p5.line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);
     this.updatePrev();
   };
 
